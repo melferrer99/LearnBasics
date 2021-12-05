@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Stories"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingBottom="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/valentines"
+        android:gravity="center"
+        android:text="Stories"
+        android:textSize="28pt"
+        android:textStyle="bold" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/little"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    android:background="@drawable/littleredridinghood"/>
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="10dp"
+                    android:layout_marginTop="185dp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/loveya"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="Little Red Riding Hood"
+                    android:layout_row="0"
+                    android:layout_column="0" />
+
+                <ImageButton
+                    android:id="@+id/jack"
+                    android:layout_toRightOf="@+id/little"
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/jackandthebeanstalk"
+                    android:layout_row="0"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_toRightOf="@+id/little"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="185dp"
+                    android:padding="5dp"
+                    android:textSize="10dp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/loveya"
+                    android:gravity="center"
+                    android:text="Jack and The Beanstalk"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="1" />
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/duck"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/theuglyduckling"/>
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:layout_marginTop="185dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="The Ugly Duckling"
+                        android:layout_row="0"
+                        android:layout_column="0" />
+
+                    <ImageButton
+                        android:id="@+id/cinderella"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/cinderella"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="185dp"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:gravity="center"
+                        android:text="Cinderella"
+                        android:textStyle="bold"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/hansel"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/hanselandgretelstory"/>
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:layout_marginTop="185dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Hansel and Gretel"
+                        android:layout_row="0"
+                        android:layout_column="0" />
+
+                    <ImageButton
+                        android:id="@+id/rapunzel"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/rapunzel"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="185dp"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:gravity="center"
+                        android:text="Rapunzel"
+                        android:textStyle="bold"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/snow"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/snowwhite"/>
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:layout_marginTop="185dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Snow White"
+                        android:layout_row="0"
+                        android:layout_column="0" />
+
+                    <ImageButton
+                        android:id="@+id/bread"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/thelittlegingerbreadman"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="185dp"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:gravity="center"
+                        android:text="The Little Gingerbread Man"
+                        android:textStyle="bold"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/mermaid"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/thelittlemermaid"/>
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:layout_marginTop="185dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="The Little Mermaid"
+                        android:layout_row="0"
+                        android:layout_column="0" />
+
+                    <ImageButton
+                        android:id="@+id/pigs"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_width="140dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/threelittlepigs"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_toRightOf="@+id/little"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="185dp"
+                        android:padding="5dp"
+                        android:textSize="10dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/loveya"
+                        android:gravity="center"
+                        android:text="The Three Little Pigs"
+                        android:textStyle="bold"
+                        android:layout_row="0"
+                        android:layout_column="1" />
+                </GridLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

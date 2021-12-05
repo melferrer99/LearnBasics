@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Quiz7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:layout_gravity="center"
+        android:padding="40dp"
+        android:textSize="28pt"
+        android:fontFamily="@font/loveya"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="What is this animal?"
+        android:textSize="20pt"
+        android:fontFamily="@font/cutebe"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/panda"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your answer here: "
+        android:paddingTop="10dp"
+        android:textSize="8pt"
+        android:paddingLeft="10pt"
+        android:fontFamily="@font/legohouse"/>
+
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="300dp"
+        android:layout_height="30pt"
+        android:layout_gravity="center"
+        android:textSize="12pt"
+        android:backgroundTint="#303030"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:fontFamily="@font/legohouse"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textSize="10pt"
+        android:fontFamily="@font/cutebe"/>
+
+
+
+</LinearLayout>

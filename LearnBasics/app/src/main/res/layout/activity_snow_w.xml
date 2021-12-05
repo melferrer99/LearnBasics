@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".SnowW"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Snow White"
+        android:gravity="center"
+        android:fontFamily="@font/hello"
+        android:textSize="24pt"
+        android:textStyle="bold" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/redstory"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/snowwhite"/>
+
+                <GridLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/Play"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/playw"
+                        android:onClick="play"/>
+
+                    <ImageView
+                        android:id="@+id/Pause"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/pausew"
+                        android:onClick="pause"/>
+
+                    <ImageView
+                        android:id="@+id/Stop"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/stopw"
+                        android:onClick="stop"/>
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12pt"
+                    android:padding="20dp"
+                    android:fontFamily="@font/cutebe"
+                    android:justificationMode="inter_word"
+                    android:text="There was once a queen who had no children, and it grieved her sorely. One winter's afternoon she was sitting by the window sewing when she pricked her finger, and three drops of blood fell on the snow. Then she thought to herself:
+
+'Ah, what would I give to have a daughter with skin as white as snow and cheeks as red as blood.'
+
+After a while a little daughter came to her with skin as white as snow and cheeks as red as blood. So they called her Snow White.
+
+But before Snow White had grown up, her mother, the Queen, died and her father married again, a most beautiful princess who was very vain of her beauty and jealous of all women who might be thought as beautiful as she was. And every morning she used to stand before her mirror and say:
+
+'Mirror, mirror, on the wall, Who is the fairest of us all?'
+
+And the mirror always used to reply:
+
+'Queen, Queen, on thy throne, The greatest beauty is thine own.'
+
+But Snow White grew fairer and fairer every year, till at last one day when the Queen in the morning spoke to her mirror and said:
+
+'Mirror, mirror, on the wall, Who is the fairest of us all?'
+
+the mirror replied:
+
+'Queen, Queen, on thy throne, Snow White's the fairest thou must own.'
+
+Then the Queen said:
+
+'That is no matter; perhaps you have something golden that you can give me in exchange.'
+
+And Snow White thought of a golden ring that her father had given to her, and offered to give it for the comb. The Queen took it and gave Snow White the comb and bade her good-bye, and went back to the palace.
+
+Snow White lost no time in going to the mirror, and binding up her hair and putting the comb into it. But it had scarcely been in her hair a few minutes when she fell down as if she were dead, and all the blood left her cheeks, and she was Snow White indeed.
+
+When the dwarfs came home that evening they were surprised to find that the table was not spread for them, and looking about they soon found Snow White lying upon the ground as if she were dead. But one of them listened to her heart and said: 'She lives! She lives!'
+
+And they began to consider what caused Snow White to fall into such a swoon. They soon found the comb, and when they took it out Snow White soon opened her eyes and became as lively as she ever was before.
+
+Next morning the Queen went to the mirror on the wall and said to it:
+
+'Mirror, mirror, on the wall, Who is the fairest of us all?'
+
+Then the mirror said as before:
+
+'Queen, Queen, on thy throne, Snow White's the fairest thou must own.'
+
+Then the Queen knew that something had happened to the comb and that Snow White was still alive. So she dressed herself once more as an old woman and took with her a poisoned ribbon and went to the hut of the three dwarfs. And when she got there she knocked at the door, but Snow White called out:
+
+'You cannot enter; I must not open the door.'
+
+Then, as before, the Queen called out in reply:
+
+'Then come to the window, and you can see my wares.'
+
+When Snow White came to the window the Queen said:
+
+'You are looking more beautiful than ever, but how unbecomingly you arrange your hair. Did you use that comb I gave you yesterday?'
+
+'Yes, indeed,'said Snow White, 'and I fell into a swoon because of it; I am afraid there is something the matter with it.'
+
+'No, no, that cannot be,' said the Queen; 'there must be some mistake. But if you cannot use the comb I will let you have this pretty ribbon instead'and she held out the poisoned ribbon. Snow White took it, and after the old woman, as she thought she was, had gone away, Snow White went to the mirror and tied up her hair with the piece of ribbon. But scarcely had she done so when she fell to the ground lifeless and lay there as if she were dead.
+
+That evening the dwarfs came home and found Snow White lying on the ground as if dead, but soon discovered the poisoned ribbon and untied it; and almost as soon as this was done Snow White revived again.
+
+Next morning the Queen went once more to the mirror on the wall, and called out:
+
+'Mirror, mirror, on the wall, Who is the fairest of us all?'
+
+to which the mirror replied, without any change:
+
+'Queen, Queen, on thy throne, Snow White's the fairest thou must own.'
+
+And the Queen recognized that once again her plans had failed, and Snow White was still alive. So she dressed herself once more and took with her a poisoned apple, which was so arranged that only one half of it was poisoned and the rest of it was left as before. And when the Queen got to the hut of the dwarfs she tried to open the door, but Snow White called out:
+
+'You can't come in!'
+
+'Then I'll come to the window,' said the Queen.
+
+'Ah, you are the old lady that came twice before; you have not brought me good luck, each time something has befallen me.'
+
+But the Queen said:
+
+'I do not know how that can be; I only brought you something for your hair; perhaps you tied it too tight. To show you that I have no ill-will against you I have brought you this beautiful apple.'
+
+'But my guardians,'said Snow White, 'told me that I must take nothing more from you.'
+
+'Oh, this is nothing to wear,' said the Queen, 'this is something to eat. To show you that there can be no harm in it I will take half of it myself and you shall eat the other half.'
+
+So she cut the apple in two and gave the poisoned half to Snow White. And the moment she had swallowed the first bite of it she fell down dead. Then the Queen slunk away and went back to the palace and went at once to her chamber and addressed the mirror on the wall:
+
+'Mirror, mirror, on the wall, Who is the fairest of us all?'
+
+And this time the mirror answered, as it used to do:
+
+'Queen, Queen, on thy throne, The greatest beauty is thine own.'
+
+Then the Queen knew that Snow White was dead at last, and that she was without a rival in beauty.
+
+When the dwarfs came home that night they found Snow White lying upon the ground quite dead, and could not find out what had happened or how they could cure her. But, though she seemed dead, Snow White kept her beautiful white skin and seemed more like a statue than a dead person. So the dwarfs had a glass coffer made, and put Snow White in and locked it up. And she remained there for days and days without changing the slightest, looking oh, so beautiful under the glass case.
+
+Now a great prince of the neighbouring country happened to be hunting near the hill of the dwarfs and called at their hut to get a glass of water. And when he came in he found nobody there but Snow White lying in her crystal coffer. And he fell at once in love with her and sat by her side till the dwarfs came home, and he asked them who she was. Then they told him her history, and he begged that he might carry the coffer away so that he might always have her near him. At first they would not do so. But he showed how much he loved her, so that they at last yielded, and he called for his men to carry the coffer home to his palace.
+
+And when the men commenced carrying the coffer down the mountain they jolted it so much that the piece of poisoned apple in Snow White's throat fell out, and she revived and opened her eyes and looked upon the Prince who was riding by her side. Then he ordered the coffer to be opened, and told her all that had happened. And he took her home to his castle and married her.
+
+After this happened the Queen once more came to her room and spoke to the mirror on the wall and said:
+
+'Mirror, mirror, on the wall, Who is the fairest of us all?'
+
+And the mirror this time said again:
+
+'Queen, Queen, on thy throne, Snow White's the fairest thou must own.'
+
+And the Queen was so enraged because she had not destroyed Snow White that she rushed to the window and threw herself out of it and died on the spot.
+
+"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

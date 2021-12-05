@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnbasics">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Learning Basics"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".About"></activity>
+        <activity android:name=".SubQuiz10w" />
+        <activity android:name=".SubQuiz10c" />
+        <activity android:name=".Quiz10" />
+        <activity android:name=".SubQuiz9w" />
+        <activity android:name=".SubQuiz9c" />
+        <activity android:name=".Quiz9" />
+        <activity android:name=".SubQuiz8w" />
+        <activity android:name=".SubQuiz8c" />
+        <activity android:name=".Quiz8" />
+        <activity android:name=".SubQuiz7w" />
+        <activity android:name=".SubQuiz7c" />
+        <activity android:name=".Quiz7" />
+        <activity android:name=".SubQuiz6w" />
+        <activity android:name=".SubQuiz6c" />
+        <activity android:name=".Quiz6" />
+        <activity android:name=".SubQuiz5w" />
+        <activity android:name=".SubQuiz5c" />
+        <activity android:name=".Quiz5" />
+        <activity android:name=".SubQuiz4w" />
+        <activity android:name=".SubQuiz4c" />
+        <activity android:name=".Quiz4" />
+        <activity android:name=".SubQuiz3w" />
+        <activity android:name=".SubQuiz3c" />
+        <activity android:name=".Quiz3" />
+        <activity android:name=".SubQuiz2w" />
+        <activity android:name=".SubQuiz2c" />
+        <activity android:name=".Quiz2" />
+        <activity android:name=".Submit2" />
+        <activity android:name=".Submit1" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".Numbers" />
+        <activity android:name=".PigsB" />
+        <activity android:name=".PigsW" />
+        <activity android:name=".PigsBW" />
+        <activity android:name=".MermaidB" />
+        <activity android:name=".MermaidW" />
+        <activity android:name=".MermaidBW" />
+        <activity android:name=".GingerBreadB" />
+        <activity android:name=".GingerBreadW" />
+        <activity android:name=".GingerBreadBW" />
+        <activity android:name=".SnowB" />
+        <activity android:name=".SnowW" />
+        <activity android:name=".SnowBW" />
+        <activity android:name=".RapunzelB" />
+        <activity android:name=".RapunzelW" />
+        <activity android:name=".RapunzelBW" />
+        <activity android:name=".HanselB" />
+        <activity android:name=".HanselW" />
+        <activity android:name=".HanselBW" />
+        <activity android:name=".CinderellaB" />
+        <activity android:name=".CinderellaW" />
+        <activity android:name=".CinderellaBW" />
+        <activity android:name=".DuckB" />
+        <activity android:name=".DuckW" />
+        <activity android:name=".DuckBW" />
+        <activity android:name=".JackB" />
+        <activity android:name=".JackW" />
+        <activity android:name=".JackBW" />
+        <activity android:name=".RedRidingHoodB" />
+        <activity android:name=".RedRidingHoodW" />
+        <activity android:name=".RedBW" />
+        <activity android:name=".Alphabet" />
+        <activity android:name=".Stories" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
